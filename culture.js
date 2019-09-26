@@ -1,17 +1,10 @@
 let cur;
 
 document.addEventListener("DOMContentLoaded", function (params) {
-    console.log(params);
     if (cur === undefined || cur === null) {
         cur = document.getElementById("culture");
-
-        cur.addEventListener("click", function (params) {
-            
-            var brw = window.browser || window.chrome;
-           
-
-            console.log(brw);
-           
+        cur.addEventListener("click", function (params) {            
+            var brw = window.browser || window.chrome;   
             brw.tabs.query({ 'currentWindow': true, 'active': true }, function (tabs) {
 
                 if (tabs && tabs.length > 0) {
