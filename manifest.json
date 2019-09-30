@@ -1,7 +1,7 @@
 {
     "name": "Change tr-tr",
-    "description": "Change culture of Web Sites from /tr-tr/ to /en-us/ for Microsoft Edge, Chrome",
-    "version": "1.1",
+    "description": "Change culture of Web Sites such as /fr-fr/ to /en-us/ extension for Microsoft Edge, Chrome",
+    "version": "1.2",
     "manifest_version": 2,
     "author": "Çağatay Dilsiz",
     "permissions": [
