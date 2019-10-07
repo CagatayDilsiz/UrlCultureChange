@@ -1,0 +1,74 @@
+#ch_culture_id {
+    margin: 4px;
+    width: 100px;
+}
+
+#ch_culture_id>span {
+    font-weight: bold;
+    color: steelblue;
+    width: 100px;
+}
+
+#ch_culture_id>select {
+    border: 1px solid steelblue;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100px;
+    color:steelblue;
+}
+
+#ch_culture_id > label {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+#ch_culture_id > label > span {
+    color: steelblue;
+    
+}
+
+#ch_culture_id > label > input {
+    height: 12px;
+    width: 12px;  
+    border: 1px solid steelblue;
+    border-radius: 10px;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: white;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+#ch_culture_id > label > input:checked {
+    border: 1px solid black;
+    background-color: steelblue;
+}
+
+
+#ch_culture_id > button{
+    width: 99px;
+    border: 1px solid steelblue;
+    margin: 1px;
+    background: white;
+    color:steelblue;
+    border-radius: 10px;
+    outline: none;
+}
+
+#ch_culture_id > button:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    color:black;
+}
+
+#ch_culture_id > button:active{
+    cursor: pointer;
+    color:white;
+    background: steelblue;
+}
