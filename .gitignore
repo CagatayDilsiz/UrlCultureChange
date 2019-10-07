@@ -1,2 +1,4 @@
 .hidden
 .release
+contentScriptsAPIBridge.js
+backgroundScriptsAPIBridge.js
